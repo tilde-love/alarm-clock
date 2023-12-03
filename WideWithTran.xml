@@ -1,0 +1,89 @@
+﻿<root file="D:\Data\Alarms\Alarm_A_00.wav" confirm-delete="True" armed="True" expanded="True" shrunk="False" on-top="True" location="977,0" state="Normal" colorpicker-location="0,0" colorpicker-mode="Mix" skineditor-location="-4,-4" skineditor-size="1288,780">
+  <colours>
+    <group name="Window">
+      <prop name="Fore Colour" value="#FFFFFFFF" />
+      <prop name="Back Colour" value="#FFFF0000" />
+      <prop name="Header Fore Colour" value="#FF000000" />
+      <prop name="Header Back Colour" value="#FF7E7E7E" />
+      <prop name="Transparent Key" value="#FFFF0000" />
+    </group>
+    <group name="Menu">
+      <prop name="Fore Colour" value="#FF000000" />
+      <prop name="Back Colour" value="#FFD4D0C8" />
+      <prop name="Separator Colour" value="#FF000000" />
+    </group>
+    <group name="Clock Display">
+      <prop name="Fore Colour" value="#FFA6CAF0" />
+      <prop name="Back Colour" value="#FFFF0000" />
+      <prop name="Disabled Colour" value="#FFFF0000" />
+      <prop name="Alt. Fore Colour" value="#FFFFFFFF" />
+      <prop name="Alt. Back Colour" value="#FF404040" />
+      <prop name="Alt. Disabled Colour" value="#FF404040" />
+      <prop name="Highlight Colour" value="#FFA6CAF0" />
+    </group>
+    <group name="Control Buttons">
+      <prop name="Fore Colour" value="#FFECE9D8" />
+      <prop name="Back Colour" value="#FF404040" />
+      <prop name="Highlight Colour" value="#FFFFFFFF" />
+      <prop name="Disabled Colour" value="#FF808080" />
+    </group>
+    <group name="Panel Buttons">
+      <prop name="Fore Colour" value="#FFECE9D8" />
+      <prop name="Back Colour" value="#FF404040" />
+      <prop name="Highlight Colour" value="#FFFFFFFF" />
+      <prop name="Disabled Colour" value="#FF808080" />
+    </group>
+    <group name="Panel">
+      <prop name="Fore Colour" value="#FF000000" />
+      <prop name="Back Colour" value="#FFD4D0C8" />
+      <prop name="Border Colour" value="#FF000000" />
+    </group>
+    <group name="Alarms List">
+      <prop name="Fore Colour" value="#FFFFFFFF" />
+      <prop name="Back Colour" value="#FF5A5A5A" />
+      <prop name="Border Colour" value="#FF000000" />
+      <prop name="Scroller Fore Colour" value="#FF000000" />
+      <prop name="Scroller Face Colour" value="#FFD4D0C8" />
+      <prop name="Scroller Highlight Colour" value="#FFFFFFFF" />
+      <prop name="Selected Colour" value="#FF0A246A" />
+      <prop name="Selected Text Colour" value="#FFFFFFFF" />
+      <prop name="Selected Check Colour" value="#FF0A246A" />
+    </group>
+    <group name="Weekend Buttons">
+      <prop name="Fore Colour" value="#FFECE9D8" />
+      <prop name="Back Colour" value="#FF1D434E" />
+      <prop name="Highlight Colour" value="#FFFFFFFF" />
+      <prop name="Disabled Colour" value="#FF68939F" />
+    </group>
+  </colours>
+  <mappings>
+    <map name="Sunday toggle box" group="Weekend Buttons" location="39,91" size="16,16" />
+    <map name="Saturday toggle box" group="Weekend Buttons" location="21,91" size="16,16" />
+    <map name="MainForm" location="226,288" size="250,245" />
+    <map name="panel2" location="0,225" size="303,22" />
+    <map name="alarmsPanel1" location="0,116" size="303,110" />
+    <map name="m_NextAlarmPanel" location="0,98" size="236,18" />
+    <map name="m_ShowPanelButton" location="288,100" />
+    <map name="digitalClockCtrl1" location="19,24" size="265,75" />
+    <map name="Alarms list" location="57,3" size="243,98" />
+    <map name="Alarm managment buttons background" location="1,46" size="55,6" />
+    <map name="Remove alarm button" location="39,3" size="16,16" />
+    <map name="Update alarm button" location="21,3" size="16,16" />
+    <map name="Create alarm button" location="3,3" size="16,16" />
+    <map name="Weekdays background" location="56,101" size="128,6" />
+    <map name="Monday toggle box" location="3,54" size="16,16" />
+    <map name="Tuesday toggle box" location="21,54" size="16,16" />
+    <map name="Wednesday toggle box" location="39,54" size="16,16" />
+    <map name="Thursday toggle box" location="3,72" size="16,16" />
+    <map name="Friday toggle box" location="21,72" size="16,16" />
+    <map name="imageButton1" location="284,3" size="16,16" />
+    <map name="label2" location="1,4" />
+    <map name="Time editor" location="3,21" />
+  </mappings>
+  <alarm time="08:30 / WeekDays" enabled="False" />
+  <alarm time="08:50 / WeekDays" enabled="False" />
+  <alarm time="09:15 / WeekDays" enabled="True" />
+  <alarm time="09:25 / WeekDays" enabled="True" />
+  <alarm time="10:30 / Weekends" enabled="True" />
+  <alarm time="11:15 / Weekends" enabled="True" />
+</root>
